@@ -1,7 +1,7 @@
 import pandas as pd
 
-dcs = pd.read_csv("Data_centers_raw.csv")
-uscounties = pd.read_csv("uscounties.csv")
+dcs = pd.read_csv("src/Data_centers_raw.csv")
+uscounties = pd.read_csv("src/uscounties.csv")
 
 dcmerged = pd.merge(dcs, 
                     uscounties, 
